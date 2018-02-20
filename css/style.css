@@ -1,0 +1,189 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wraper{
+	margin: 0 auto;
+	max-width: 1280px;
+	height:2000px;
+	border: solid 2px blue;
+}
+.aside{
+	float: left;
+	top:0;
+	bottom: 0;
+	width: 150px;
+	margin-top: 5px;
+	margin-left: 5px;
+	background: green;
+	text-align: center;
+}
+.aside a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	border-bottom: solid 1px yellow;	
+	box-shadow: 5px 3px gray;
+	height: 50px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.aside a:hover{
+	border-bottom: solid 1px red;
+	background-color: black;
+}
+.baglist{
+	display: none;
+	top:0;
+	bottom: 0;
+	width: 150px;
+	margin-top: 5px;
+	background-color: pink;
+}
+.baglist a{
+	text-decoration: none;
+	display: block;
+	border-bottom: solid 1px yellow;
+	border-left: solid 1px yellow;
+	height: 50px;
+	padding-top: 20px;	
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 5px 3px black;
+}
+.baglist a:hover{
+	border-bottom: solid 1px red;
+	border-left: solid 1px red;
+	background-color: orange;
+}
+/*暫時忽略...
+.foodlist{
+	display: none;
+	top:0;
+	bottom: 0;
+	width: 150px;
+	margin-top: 5px;
+	background-color: gray;
+}
+.foodlist a{
+	text-decoration: none;
+	display: block;
+	border-bottom: solid 1px yellow;
+	height: 50px;
+	padding-top: 20px;	
+	box-sizing: border-box;
+	text-align: center;
+}
+.shoeslist{
+	display: none;
+	top:0;
+	bottom: 0;
+	width: 150px;
+	margin-top: 5px;
+	background-color: gray;
+}
+.shoeslist a{
+	text-decoration: none;
+	display: block;
+	border-bottom: solid 1px yellow;
+	height: 50px;
+	padding-top: 20px;	
+	box-sizing: border-box;
+	text-align: center;
+}
+.GGlist{
+	display: none;
+	top:0;
+	bottom: 0;
+	width: 150px;
+	margin-top: 5px;
+	background-color: gray;
+}
+.GGlist a{
+	text-decoration: none;
+	display: block;
+	border-bottom: solid 1px yellow;
+	height: 50px;
+	padding-top: 20px;	
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
