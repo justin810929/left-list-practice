@@ -41,11 +41,34 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.clearfix{
+	clear: both;
+}
 .wraper{
 	margin: 0 auto;
-	max-width: 1280px;
+	max-width: 100%;
 	height:2000px;
 	border: solid 2px blue;
+}
+.top a{
+	display: block;
+	position: fixed;
+	bottom: 30px;
+	right: 5px;
+	width: 50px;
+	height: 50px;
+	background:linear-gradient(black,gray);
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.top a:hover{
+	background:linear-gradient(blue,gray);
+	color: red;
+	font-size: 20px;
 }
 .aside{
 	float: left;
@@ -78,6 +101,7 @@ table {
 	width: 150px;
 	margin-top: 5px;
 	background-color: pink;
+	transition: 0.7,ease;
 }
 .baglist a{
 	text-decoration: none;
@@ -95,14 +119,14 @@ table {
 	border-left: solid 1px red;
 	background-color: orange;
 }
-/*暫時忽略...
 .foodlist{
 	display: none;
 	top:0;
 	bottom: 0;
 	width: 150px;
-	margin-top: 5px;
-	background-color: gray;
+	margin-top: 105px;
+	background-color: pink;
+	transition: 0.7,ease;
 }
 .foodlist a{
 	text-decoration: none;
@@ -113,13 +137,18 @@ table {
 	box-sizing: border-box;
 	text-align: center;
 }
+.foodlist a:hover{
+	border-bottom: solid 1px red;
+	border-left: solid 1px red;
+	background-color: orange;
+}
 .shoeslist{
 	display: none;
 	top:0;
 	bottom: 0;
 	width: 150px;
-	margin-top: 5px;
-	background-color: gray;
+	margin-top: 55px;
+	background-color: pink;
 }
 .shoeslist a{
 	text-decoration: none;
@@ -130,13 +159,18 @@ table {
 	box-sizing: border-box;
 	text-align: center;
 }
+.shoeslist a:hover{
+	border-bottom: solid 1px red;
+	border-left: solid 1px red;
+	background-color: orange;
+}
 .GGlist{
 	display: none;
 	top:0;
 	bottom: 0;
 	width: 150px;
-	margin-top: 5px;
-	background-color: gray;
+	margin-top: 155px;
+	background-color: pink;
 }
 .GGlist a{
 	text-decoration: none;
@@ -146,6 +180,11 @@ table {
 	padding-top: 20px;	
 	box-sizing: border-box;
 	text-align: center;
+}
+.GGlist a:hover{
+	border-bottom: solid 1px red;
+	border-left: solid 1px red;
+	background-color: orange;
 }
 
 
