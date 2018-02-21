@@ -2,16 +2,12 @@ $(document).ready(function() {
 	/*包包的列表*/
 	$('.baglist-open').hover(function() {
 		/* Stuff to do when the mouse enters the element */
-<<<<<<< HEAD
 	$('.baglist').css('display','inline-block').fadeIn(1500);
-=======
 		$('.baglist').css('display','inline-block');
->>>>>>> 8ad11f28fe7e1e6a78d914f5fc129bf3e9667d42
 	}, function() {
 		/* Stuff to do when the mouse leaves the element */
 	$('.baglist').css('display','none').fadeOut(1500)
 	});
-<<<<<<< HEAD
 	$('.baglist').hover(function() {
 		/* Stuff to do when the mouse enters the element */
 	$('.baglist').css('display','inline-block').fadeIn(1500);
