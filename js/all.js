@@ -2,10 +2,10 @@ $(document).ready(function() {
 	/*包包的列表*/
 	$('.baglist-open').hover(function() {
 		/* Stuff to do when the mouse enters the element */
-	$('.baglist').fadeIn(1500);
+	$('.baglist').fadeIn(700).css('display','inline-block');
 	}, function() {
 		/* Stuff to do when the mouse leaves the element */
-	$('.baglist').fadeOut(1500)
+	$('.baglist').fadeOut(700)
 	});
 	$('.baglist').hover(function() {
 		/* Stuff to do when the mouse enters the element */
@@ -59,10 +59,3 @@ $(document).ready(function() {
 		/* Stuff to do when the mouse leaves the element */
 	$('.GGlist').css('display','none').fadeOut(1500)
 	});
-/*TOP捲動效果*/
-        $('.top a').click(function(){
-	 event.preventDefault();
-	$('body,html').animation({
-	scrollTop:0},700)
-	});
-});
