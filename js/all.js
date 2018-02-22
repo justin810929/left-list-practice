@@ -2,18 +2,17 @@ $(document).ready(function() {
 	/*包包的列表*/
 	$('.baglist-open').hover(function() {
 		/* Stuff to do when the mouse enters the element */
-	$('.baglist').css('display','inline-block').fadeIn(1500);
-		$('.baglist').css('display','inline-block');
+	$('.baglist').fadeIn(1500);
 	}, function() {
 		/* Stuff to do when the mouse leaves the element */
-	$('.baglist').css('display','none').fadeOut(1500)
+	$('.baglist').fadeOut(1500)
 	});
 	$('.baglist').hover(function() {
 		/* Stuff to do when the mouse enters the element */
-	$('.baglist').css('display','inline-block').fadeIn(1500);
+	$('.baglist').css('display','inline-block');
 	}, function() {
 		/* Stuff to do when the mouse leaves the element */
-	$('.baglist').css('display','none').fadeOut(1500)
+	$('.baglist').fadeOut(1500)
 	});
 /*食物的列表*/
 	$('.foodlist-open').hover(function() {
