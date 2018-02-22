@@ -70,6 +70,7 @@ table {
 	color: red;
 	font-size: 20px;
 }
+
 .aside{
 	float: left;
 	top:0;
@@ -102,6 +103,9 @@ table {
 	margin-top: 5px;
 	background-color: pink;
 	transition: 0.7,ease;
+}
+.baglist.open{
+	display: inline-block;
 }
 .baglist a{
 	text-decoration: none;
@@ -186,6 +190,7 @@ table {
 	border-left: solid 1px red;
 	background-color: orange;
 }
+
 
 
 
