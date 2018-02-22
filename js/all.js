@@ -59,4 +59,10 @@ $(document).ready(function() {
 		/* Stuff to do when the mouse leaves the element */
 	$('.GGlist').css('display','none').fadeOut(1500)
 	});
+/*TOP捲動效果*/
+        $('.top a').click(function(){
+	 event.preventDefault();
+	$('body,html').animation({
+	scrollTop:0},700)
+	});
 });
