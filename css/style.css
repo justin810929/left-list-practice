@@ -104,9 +104,6 @@ table {
 	background-color: pink;
 	transition: 0.7,ease;
 }
-.baglist.open{
-	display: inline-block;
-}
 .baglist a{
 	text-decoration: none;
 	display: block;
