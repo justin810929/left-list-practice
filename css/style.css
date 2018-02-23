@@ -96,7 +96,7 @@ table {
 	background-color: black;
 }
 .baglist{
-	display: none;
+	display: inline-block;
 	top:0;
 	bottom: 0;
 	width: 150px;
@@ -106,7 +106,7 @@ table {
 }
 .baglist a{
 	text-decoration: none;
-	display: inline-block;
+	display: block;
 	border-bottom: solid 1px yellow;
 	border-left: solid 1px yellow;
 	height: 50px;
