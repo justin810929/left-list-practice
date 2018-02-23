@@ -106,7 +106,7 @@ table {
 }
 .baglist a{
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 	border-bottom: solid 1px yellow;
 	border-left: solid 1px yellow;
 	height: 50px;
