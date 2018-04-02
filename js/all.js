@@ -7,7 +7,11 @@ $(document).ready(function() {
 		/* Stuff to do when the mouse leaves the element */
 		$('.baglist').css('display','none')
 	});
-		
+	$('.top').click(function(event) {
+  event.preventDefault();
+  $('html,body').animate({
+    scrollTop: 0
+  }, 400);	
 	
     /*食物的列表*/
 	
